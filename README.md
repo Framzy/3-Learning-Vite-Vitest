@@ -17,4 +17,24 @@
 
 ## Implementation
 
-- We shoul import in explicit way lik describe, it, expect from vitest, due to vitest not including globals by default.
+- We should import in explicit way lik describe, it, expect from vitest, due to vitest not including globals by default.
+
+but we can make globals by adding a configuration file. And then we can remove the import statement.
+
+```ts
+import { describe, expect, it } from "vitest";
+```
+
+```js
+import { defineConfig } from "vitest/config";
+
+export default defineConfig({
+  test: {
+    globals: true,
+  },
+});
+```
+
+- To want make configuration [Config Reference](https://www.vitest.dev/config/)
+
+- Vitest compatible with jest
