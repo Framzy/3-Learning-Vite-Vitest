@@ -38,3 +38,8 @@ export default defineConfig({
 - To want make configuration [Config Reference](https://www.vitest.dev/config/)
 
 - Vitest compatible with jest
+
+## Chai test assertions
+
+- Vitest uses Chai assertions by default, which provides a rich set of assertion methods for writing tests.
+- You can use `expect` from Vitest to perform assertions in your tests, similar to how you would in Jest.
