@@ -78,3 +78,14 @@ npx vitest bench --run tests/hello.bench.ts
   https://istanbul.js.org/
 - We can choose which library to use in the configuration file, but the default selection is V8
   To perform Code Coverage, add --coverage when running vitest, for example: npx vitest --run --coverage filename
+
+## VitestUI
+
+- One of the interesting features in Vitest is Vitest UI.
+- Vitest UI is a web dashboard for monitoring the unit tests we create, which ones are successful and which ones fail.
+- We can also run unit tests through the web provided by Vitest UI.
+- We can run Vitest UI when running Vitest by adding the --ui parameter, for example:
+
+  ```zsh
+  npx vitest --ui
+  ```
