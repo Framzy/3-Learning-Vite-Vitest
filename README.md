@@ -89,3 +89,4 @@ npx vitest bench --run tests/hello.bench.ts
   ```zsh
   npx vitest --ui
   ```
+<img width="1067" height="760" alt="Screenshot 2025-10-06 at 19 34 48" src="https://github.com/user-attachments/assets/989909f9-e8db-4e5f-8482-d4dafe487d4b" />
